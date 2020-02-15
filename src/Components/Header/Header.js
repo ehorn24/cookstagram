@@ -6,8 +6,8 @@ const Header = () => {
     <header>
       <h1>Cookstagram</h1>
       <p>
-        The social network dedicated to the one thing that really matters -
-        food, and how to make it.
+        The social network dedicated to the one thing that really matters - food
+        (and how to make it).
       </p>
       <Link to="/signup">
         <button>Sign up</button>
