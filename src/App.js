@@ -14,7 +14,16 @@ export default class App extends Component {
           render={props => (
             <>
               <Navigation {...props} />
-              <Header />
+              <Header {...props} />
+            </>
+          )}
+        />
+        <Route
+          exact
+          path="/signup"
+          render={props => (
+            <>
+              <h1>Hello world</h1>
             </>
           )}
         />
