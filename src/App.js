@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Navigation from "./Components/Navigation/Navigation";
 import Signup from "./Components/Signup/Signup";
+import Login from "./Components/Login/Login";
 
 export default class App extends Component {
   render() {
@@ -26,6 +27,16 @@ export default class App extends Component {
             <>
               <Navigation />
               <Signup />
+            </>
+          )}
+        />
+        <Route
+          exact
+          path="/login"
+          render={props => (
+            <>
+              <Navigation />
+              <Login />
             </>
           )}
         />
