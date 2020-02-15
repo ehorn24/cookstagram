@@ -7,4 +7,13 @@
     height: 75%;
   }
   margin: 30px auto;
+  &:hover,
+  &:visted,
+  &:active {
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
