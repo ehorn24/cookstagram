@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <nav>
       <Link to="/">
-        <h2>Cookstagram</h2>
+        <h2>Cookstagram - Static Version</h2>
       </Link>
     </nav>
   );
