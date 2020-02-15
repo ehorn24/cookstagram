@@ -19,7 +19,9 @@ const Login = () => {
             <input type="password" name="password" id="password" />
           </li>
         </ul>
-        <button type="submit">Log in</button>
+        <Link to="/feed">
+          <button type="submit">Log in</button>
+        </Link>
       </form>
       <h3>
         Don't have an account yet? Create one <Link to="/signup">here</Link>

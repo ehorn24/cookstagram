@@ -37,7 +37,9 @@ const Signup = () => {
             />
           </li>
         </ul>
-        <button type="submit">Create account</button>
+        <Link to="/feed">
+          <button type="submit">Create account</button>
+        </Link>
       </form>
       <h3>
         Already have an account? Log in <Link to="/login">here</Link>
