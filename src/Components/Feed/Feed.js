@@ -1,8 +1,15 @@
 import React from "react";
-import { users } from "../../MockData/MockUsers";
+import Post from "./Post";
+import MockRecipes from "../../MockData/MockRecipes";
 
 const Feed = () => {
-  return <div>Hello World!</div>;
+  return (
+    <main>
+      {MockRecipes.recipes.map((recipe, key) => {
+        return <Post key={key} {...recipe} />;
+      })}
+    </main>
+  );
 };
 
 export default Feed;
