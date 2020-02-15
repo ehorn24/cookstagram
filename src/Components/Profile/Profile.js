@@ -30,9 +30,12 @@ const Profile = ({ match }) => {
         <p className="bio">{bio}</p>
       </section>
       <section className="user-recipes">
-        {userRecipes.map(recipe => {
-          return <RecipeThumbnail {...recipe} />;
-        })}
+        <h4>My Recipes</h4>
+        <div className="thumbnails-container">
+          {userRecipes.map(recipe => {
+            return <RecipeThumbnail {...recipe} />;
+          })}
+        </div>
       </section>
     </main>
   );
