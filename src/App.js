@@ -6,6 +6,7 @@ import Navigation from "./Components/Navigation/Navigation";
 import Signup from "./Components/Signup/Signup";
 import Login from "./Components/Login/Login";
 import Feed from "./Components/Feed/Feed";
+import Recipe from "./Components/Recipe/Recipe";
 
 export default class App extends Component {
   render() {
@@ -48,6 +49,15 @@ export default class App extends Component {
             <>
               <Navigation />
               <Feed />
+            </>
+          )}
+        />
+        <Route
+          path="/recipe/:recipename"
+          render={props => (
+            <>
+              <Navigation />
+              <Recipe {...props} />
             </>
           )}
         />
