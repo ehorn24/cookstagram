@@ -7,18 +7,26 @@ const Profile = ({ match }) => {
     user => user.username === match.params.username
   );
   let userRecipes = MockRecipes.recipes.filter(
-    recipe => recipe.user === match.params.username
+    recipe => recipe.username === match.params.username
   );
-  let { firstname, lastname, username, profilepicture } = currentProfile[0];
+  console.log(userRecipes);
+  let {
+    firstname,
+    lastname,
+    username,
+    profilepicture,
+    bio
+  } = currentProfile[0];
 
   return (
     <main>
       <section className="sidebar">
-        <h1>
+        <h1 className="full-name">
           {firstname} {lastname}
         </h1>
-        <h2>{username}</h2>
-        <img src={profilepicture} alt="profile" />
+        <h2 className="user-name">@{username}</h2>
+        <img src={profilepicture} alt="profile" className="profile-picture" />
+        <p className="bio">{bio}</p>
       </section>
       <section className="user-recipes">
         {userRecipes.map(recipe => {

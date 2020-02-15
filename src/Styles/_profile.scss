@@ -1,0 +1,30 @@
+.sidebar {
+  text-align: center;
+  width: 30%;
+  float: left;
+  margin: 0;
+  border: 1px solid blue;
+  .full-name {
+    margin: 10px;
+  }
+  .user-name {
+    font-size: 18px;
+    margin: 8px;
+  }
+  .profile-picture {
+    width: 90%;
+    height: 90%;
+    margin-top: 20px;
+  }
+
+  .bio {
+    width: 85%;
+    margin: 30px auto;
+  }
+}
+
+.user-recipes {
+  border: 1px solid red;
+  width: 69%;
+  float: right;
+}

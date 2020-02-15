@@ -1,0 +1,50 @@
+.recipe-name {
+  font-size: 30px;
+}
+
+.username,
+.username-link {
+  font-size: 16px;
+}
+
+.username-link {
+  display: inline;
+  color: lightseagreen;
+  &:hover {
+    color: orange;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.recipe-picture {
+  width: 350px;
+  height: 350px;
+  margin-left: 100px;
+}
+
+.ingredients-container {
+  float: right;
+  width: 50%;
+  clear: right;
+  ul {
+    li {
+      padding: 5px;
+    }
+  }
+}
+
+.instructions-container {
+  clear: both;
+  margin: 30px;
+  h3 {
+    text-align: center;
+  }
+  ol {
+    li {
+      padding: 5px;
+    }
+  }
+}

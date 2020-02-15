@@ -7,31 +7,41 @@ const Recipe = ({ match }) => {
     recipe => recipe.recipename === match.params.recipename
   );
   let {
-    user,
+    username,
     recipename,
     picture,
     instructions,
     ingredients
   } = currentRecipe[0];
+
   return (
     <main>
-      <Link to={"/profile/" + user}>
-        <h1>{user}</h1>
-      </Link>
-      <h2>{recipename}</h2>
-      <img src={picture} alt="recipe" />
-      <h3>Ingredients</h3>
-      <ul>
-        {ingredients.map(ingredient => {
-          return <li>{ingredient}</li>;
-        })}
-      </ul>
-      <h6>Instructions</h6>
-      <ol>
-        {instructions.map(instruction => {
-          return <li>{instruction}</li>;
-        })}
-      </ol>
+      <h2 className="recipe-name">
+        {recipename}{" "}
+        <span className="username">
+          by{" "}
+          <Link to={"/profile/" + username}>
+            <h4 className="username-link">{username}</h4>
+          </Link>{" "}
+        </span>
+      </h2>
+      <img src={picture} alt="recipe" className="recipe-picture" />
+      <div className="ingredients-container">
+        <h3>Ingredients</h3>
+        <ul>
+          {ingredients.map(ingredient => {
+            return <li>{ingredient}</li>;
+          })}
+        </ul>
+      </div>
+      <div className="instructions-container">
+        <h3>Instructions</h3>
+        <ol>
+          {instructions.map(instruction => {
+            return <li>{instruction}</li>;
+          })}
+        </ol>
+      </div>
     </main>
   );
 };
