@@ -19,7 +19,7 @@ const Login = () => {
             <input type="password" name="password" id="password" />
           </li>
         </ul>
-        <Link to="/feed">
+        <Link to="/feed/ellahorn">
           <button type="submit">Log in</button>
         </Link>
       </form>
