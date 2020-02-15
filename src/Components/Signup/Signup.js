@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
@@ -22,8 +23,20 @@ const Signup = () => {
             <label htmlFor="password">Password</label>
             <input type="password" name="password" id="password" />
           </li>
+          <li>
+            <label htmlFor="confirm-password">Confirm Password</label>
+            <input
+              type="password"
+              name="confirm-password"
+              id="confirm-password"
+            />
+          </li>
         </ul>
+        <button type="submit">Create account</button>
       </form>
+      <h3>
+        Already have an account? Log in <Link to="/login">here</Link>
+      </h3>
     </div>
   );
 };
