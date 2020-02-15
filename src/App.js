@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from "./Components/Header/Header";
 import Navigation from "./Components/Navigation/Navigation";
+import Signup from "./Components/Signup/Signup";
 
 export default class App extends Component {
   render() {
@@ -23,7 +24,8 @@ export default class App extends Component {
           path="/signup"
           render={props => (
             <>
-              <h1>Hello world</h1>
+              <Navigation />
+              <Signup />
             </>
           )}
         />
