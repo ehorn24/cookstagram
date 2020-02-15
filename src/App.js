@@ -7,6 +7,7 @@ import Signup from "./Components/Signup/Signup";
 import Login from "./Components/Login/Login";
 import Feed from "./Components/Feed/Feed";
 import Recipe from "./Components/Recipe/Recipe";
+import Profile from "./Components/Profile/Profile";
 
 export default class App extends Component {
   render() {
@@ -58,6 +59,15 @@ export default class App extends Component {
             <>
               <Navigation />
               <Recipe {...props} />
+            </>
+          )}
+        />
+        <Route
+          path="/profile/:username"
+          render={props => (
+            <>
+              <Navigation />
+              <Profile {...props} />
             </>
           )}
         />
