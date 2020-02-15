@@ -1,15 +1,24 @@
-import React from "react";
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from "./Components/Header/Header";
 import Navigation from "./Components/Navigation/Navigation";
 
-function App() {
-  return (
-    <div>
-      <Navigation />
-      <Header />
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Route
+          exact
+          path="/"
+          render={props => (
+            <>
+              <Navigation {...props} />
+              <Header />
+            </>
+          )}
+        />
+      </Router>
+    );
+  }
 }
-
-export default App;
