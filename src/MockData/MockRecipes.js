@@ -1,7 +1,7 @@
 export default {
   recipes: [
     {
-      user: "ellahorn",
+      username: "ellahorn",
       recipename: "Pepper Steak",
       picture:
         "https://www.skinnytaste.com/wp-content/uploads/2009/07/Pepper-Steak-4-5.jpg",
@@ -24,7 +24,7 @@ export default {
       ]
     },
     {
-      user: "johnnicholas",
+      username: "johnnicholas",
       recipename: "Spicy Shrimp Fried Rice",
       picture:
         "https://www.skinnytaste.com/wp-content/uploads/2009/06/Spicy-Shrimp-Fried-Rice-3.jpg",
@@ -55,7 +55,7 @@ export default {
       ]
     },
     {
-      user: "praveeniscool",
+      username: "praveeniscool",
       recipename: "Chicken Zucchini Stir Fry",
       picture:
         "https://www.skinnytaste.com/wp-content/uploads/2019/08/Chicken-and-Zucchini-Stir-Fry-RS-5.jpg",
@@ -82,7 +82,7 @@ export default {
       ]
     },
     {
-      user: "sashafierce",
+      username: "sashafierce",
       recipename: "Cilantro Lime Fish Tacos",
       picture:
         "https://www.skinnytaste.com/wp-content/uploads/2012/02/fish-taco-5.jpg",
@@ -111,7 +111,7 @@ export default {
       ]
     },
     {
-      user: "diggityrocks",
+      username: "diggityrocks",
       recipename: "Garlic Lovers Roast Beef",
       picture:
         "https://www.skinnytaste.com/wp-content/uploads/2013/06/Garlic-Lover%E2%80%99s-Roast-Beef-7.jpg",

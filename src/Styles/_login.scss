@@ -1,4 +1,4 @@
-.signup-page {
+.login-page {
   text-align: center;
   .static-message {
     width: 250px;
@@ -7,17 +7,17 @@
     padding: 8px;
     background-color: lightyellow;
   }
-  .signup-fields {
+  .login-fields {
     text-align: center;
-    .field {
-      list-style: none;
-      padding: 8px;
-      .input-field {
-        margin-left: 10px;
-      }
+  }
+  .field {
+    list-style: none;
+    padding: 8px;
+    .input-field {
+      margin-left: 10px;
     }
   }
-  .create-account-button {
+  .login-button {
     font-size: 14px;
     margin: 8px;
     border: none;
@@ -31,7 +31,7 @@
       background-color: orange;
     }
   }
-  .login-link {
+  .create-account-link {
     color: orange;
     &:hover {
       color: lightseagreen;
