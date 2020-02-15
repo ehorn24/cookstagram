@@ -43,7 +43,7 @@ export default class App extends Component {
         />
         <Route
           exact
-          path="/feed"
+          path="/feed/ellahorn"
           render={props => (
             <>
               <Navigation />
