@@ -3,7 +3,6 @@
   width: 30%;
   float: left;
   margin: 0;
-  border: 1px solid blue;
   .full-name {
     margin: 10px;
   }
@@ -27,4 +26,15 @@
   border: 1px solid red;
   width: 69%;
   float: right;
+  text-align: center;
+  .my-recipes {
+    font-size: 24px;
+  }
+}
+
+.thumbnails-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid blue;
+  margin: 20px;
 }

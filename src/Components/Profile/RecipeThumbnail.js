@@ -2,8 +2,8 @@ import React from "react";
 
 const RecipeThumbnail = ({ recipename, picture }) => {
   return (
-    <div>
-      <img src={picture} alt="recipe" />
+    <div className="thumbnail">
+      <img src={picture} alt="recipe" className="thumbnail-picture" />
       <p className="recipe-name">{recipename}</p>
     </div>
   );
