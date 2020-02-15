@@ -1,6 +1,7 @@
 import React from "react";
 import MockUsers from "../../MockData/MockUsers";
 import MockRecipes from "../../MockData/MockRecipes";
+import RecipeThumbnail from "./RecipeThumbnail";
 
 const Profile = ({ match }) => {
   let currentProfile = MockUsers.users.filter(
@@ -30,7 +31,7 @@ const Profile = ({ match }) => {
       </section>
       <section className="user-recipes">
         {userRecipes.map(recipe => {
-          return <div>{recipe.recipename}</div>;
+          return <RecipeThumbnail {...recipe} />;
         })}
       </section>
     </main>
