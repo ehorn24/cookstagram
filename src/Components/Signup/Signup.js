@@ -5,7 +5,12 @@ const Signup = () => {
   return (
     <div>
       <h3>Create an account!</h3>
-      <form action="submit">
+      <form
+        action="submit"
+        onSubmit={e => {
+          e.preventDefault();
+        }}
+      >
         <ul>
           <li>
             <label htmlFor="first-name">First Name</label>

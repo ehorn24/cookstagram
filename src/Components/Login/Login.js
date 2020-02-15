@@ -3,7 +3,12 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div>
-      <form action="">
+      <form
+        action="submit"
+        onSubmit={e => {
+          e.preventDefault();
+        }}
+      >
         <ul>
           <li>
             <label htmlFor="username">Username</label>
