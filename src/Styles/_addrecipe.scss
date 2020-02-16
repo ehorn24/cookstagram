@@ -1,0 +1,46 @@
+main {
+  text-align: center;
+  .static-message {
+    width: 250px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: lightyellow;
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+  }
+  .recipe-fields {
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    .field {
+      list-style: none;
+      padding: 8px;
+      .input-field {
+        margin: 8px auto;
+        display: block;
+        width: 250px;
+        height: 20px;
+      }
+    }
+    .add-button {
+      margin: 10px;
+    }
+  }
+  .post-button {
+    font-size: 14px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    background-color: lightseagreen;
+    &:hover,
+    &:focus {
+      background-color: orange;
+    }
+  }
+}
