@@ -2,7 +2,7 @@ import React from "react";
 
 const AddRecipe = () => {
   return (
-    <main>
+    <main className="add-recipe-page">
       <div>
         <p className="static-message">
           Due to time constraints, this feature is not fully functional yet.
