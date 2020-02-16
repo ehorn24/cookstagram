@@ -27,10 +27,10 @@ const Profile = ({ match }) => {
         <h2 className="user-name">@{username}</h2>
         <img src={profilepicture} alt="profile" className="profile-picture" />
         <p className="bio">{bio}</p>
+        <button className="add-recipe">Add recipe +</button>
       </section>
       <section className="user-recipes">
         <h4 className="my-recipes">My Recipes</h4>
-        <button className="add-recipe">Add recipe +</button>
         <div className="thumbnails-container">
           {userRecipes.map(recipe => {
             return <RecipeThumbnail {...recipe} />;
