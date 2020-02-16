@@ -135,7 +135,7 @@ export default {
       username: "ellahorn",
       recipename: "Kung Pao Chicken",
       picture:
-        "https://assets.epicurious.com/photos/54af3ad2c4a891cc44ccbcb8/6:4/w_274%2Ch_169/51179600_kung-pao-chicken_1x1.jpg",
+        "https://rasamalaysia.com/wp-content/uploads/2019/03/kung-pao-chicken-thumb.jpg",
       ingredients: [
         "1 tbsp soy sauce",
         "2 tsp Chinese rice wine or dry sherry",

@@ -10,7 +10,6 @@ const Profile = ({ match }) => {
   let userRecipes = MockRecipes.recipes.filter(
     recipe => recipe.username === match.params.username
   );
-  console.log(userRecipes);
   let {
     firstname,
     lastname,
