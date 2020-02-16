@@ -2,6 +2,7 @@ import React from "react";
 import MockUsers from "../../MockData/MockUsers";
 import MockRecipes from "../../MockData/MockRecipes";
 import RecipeThumbnail from "./RecipeThumbnail";
+import { Link } from "react-router-dom";
 
 const Profile = ({ match }) => {
   let currentProfile = MockUsers.users.filter(
@@ -27,7 +28,9 @@ const Profile = ({ match }) => {
         <h2 className="user-name">@{username}</h2>
         <img src={profilepicture} alt="profile" className="profile-picture" />
         <p className="bio">{bio}</p>
-        <button className="add-recipe">Add recipe +</button>
+        <Link to="/addrecipe">
+          <button className="add-recipe">Add recipe +</button>
+        </Link>
       </section>
       <section className="user-recipes">
         <h4 className="my-recipes">My Recipes</h4>

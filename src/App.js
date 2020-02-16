@@ -8,6 +8,7 @@ import Login from "./Components/Login/Login";
 import Feed from "./Components/Feed/Feed";
 import Recipe from "./Components/Recipe/Recipe";
 import Profile from "./Components/Profile/Profile";
+import AddRecipe from "./Components/AddRecipe/AddRecipe";
 
 export default class App extends Component {
   render() {
@@ -68,6 +69,16 @@ export default class App extends Component {
             <>
               <Navigation />
               <Profile {...props} />
+            </>
+          )}
+        />
+        <Route
+          exact
+          path="/addrecipe"
+          render={props => (
+            <>
+              <Navigation />
+              <AddRecipe />
             </>
           )}
         />
