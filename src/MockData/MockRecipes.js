@@ -130,6 +130,61 @@ export default {
         "Roast until the thermometer reads 130° for rare, 140° for medium rare, 150° for medium, and 155-160° for well done. Remove the roast from the oven and let it rest 10-20 minutes before you cut it so that the juices distributed evenly. I personally remove my roast beef from the oven when it is 135° for medium rare. The temperature will rise an additional 5 degrees as it sits.",
         "Slice thin and serve."
       ]
+    },
+    {
+      username: "ellahorn",
+      recipename: "Kung Pao Chicken",
+      picture:
+        "https://assets.epicurious.com/photos/54af3ad2c4a891cc44ccbcb8/6:4/w_274%2Ch_169/51179600_kung-pao-chicken_1x1.jpg",
+      ingredients: [
+        "1 tbsp soy sauce",
+        "2 tsp Chinese rice wine or dry sherry",
+        "1 1/2 tsp cornstarch",
+        "1lb boneless, skinless chicken breats or thighs, cut into 1-inch cubes",
+        "1 tbsp Chinese black vinegar, or good-quality balsamic vinegar",
+        "1 tsp soy sauce",
+        "1 tsp hoisin sauce",
+        "1 tsp sesame oil",
+        "2 tsp sugar",
+        "1 tsp cornstarch",
+        "1/2 tsp ground Sichaun pepper",
+        "2 tbsp peanut or vegetable oil",
+        "8 to 10 dried red chilies",
+        "3 scallions, white and green parts separated, thinly sliced",
+        "2 garlic cloves, minced",
+        "1 tsp minced or grated fresh ginger",
+        "1/4 cup unsalted dry-roasted peanuts"
+      ],
+      instructions: [
+        "Marinate the chicken: In a medium bowl, stir together the soy sauce, rice wine, and cornstarch until the cornstarch is dissolved. Add the chicken and stir gently to coat. Let stand at room temperature for 10 minutes.",
+        "Prepare the sauce: In another bowl, combine the black vinegar, soy sauce, hoisin sauce, sesame oil, sugar, cornstarch, and Sichuan pepper. Stir until the sugar and cornstarch are dissolved and set aside.",
+        "You may need to turn on your stove's exhaust fan, because stir-frying dried chilies on high heat can get a little smoky. Heat a wok or large skillet over high heat until a bead of water sizzles and evaporates on contact. Add the peanut oil and swirl to coat the base. Add the chilies and stir-fry for about 30 seconds, or until the chilies have just begun to blacken and the oil is slightly fragrant. Add the chicken and stir-fry until no longer pink, 2 to 3 minutes.",
+        "Add the scallion whites, garlic, and ginger and stir-fry for about 30 seconds. Pour in the sauce and mix to coat the other ingredients. Stir in the peanuts and cook for another 1 to 2 minutes. Transfer to a serving plate, sprinkle the scallion greens on top, and serve."
+      ]
+    },
+    {
+      username: "ellahorn",
+      recipename: "Grilled Zucchini Salad",
+      picture:
+        "https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,c_fit,w_1060/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F3%2F2017%2F07%2F2ace03227657f07a2e6007a45fbe9fbe04a46144.jpeg",
+      ingredients: [
+        "3lbs medium green zucchini or yellow summer squash",
+        "5 tbsp olive oil, divided",
+        "finely grated zest of 1 medium lemon",
+        "2 tbsp freshly squeezed lemon juice",
+        "1/4 tsp dried oregano",
+        "1 1/4 tsp kosher salt, divided",
+        "freshly ground black pepper",
+        "1 cup crumbled feta cheese (about 4.5oz)",
+        "1 tbsp coarsely chopped fresh mint leaves"
+      ],
+      instructions: [
+        "Heat a grill pan or outdoor grill to high (450°F to 550°F). Meanwhile, prepare the zucchini and dressing.",
+        "Cut the zucchini using the roll cut technique: Trim the ends off 1 of the zucchini. Make a diagonal cut about 1 1/2 inches from one end. Roll the squash a half turn and make another diagonal cut (in the same direction as the first cut) about 1 1/2 inches from the cut end of the squash. Repeat with the rolling and cutting until you reach the end of the squash. Repeat with the remaining squash, place in a large bowl, and set aside.",
+        "Place 3 tablespoons of the oil, lemon zest, lemon juice, oregano, and 1/4 teaspoon of the salt in a small bowl. Season with pepper and whisk to combine; set aside.",
+        "When the grill is ready, drizzle the zucchini with the remaining 2 tablespoons of oil, sprinkle with the remaining 1 teaspoon of salt and pepper, and toss to combine. Place in a single layer on the grill (reserve the bowl; no need to wash). Cover and grill, turning occasionally, until charred in spots and crisp-tender, about 8 minutes total.",
+        "Transfer the squash back to the reserved bowl, drizzle with the dressing, and toss to combine. Set aside to cool to just warm or room temperature, at least 15 minutes. Add the feta and mint and gently toss to combine."
+      ]
     }
   ]
 };
